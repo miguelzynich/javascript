@@ -2,6 +2,7 @@
   "name": "javascript",
   "version": "1.0.0",
   "description": "- Fórmula / Molde dinâmico - Coleção de propriedas (atribuitos) - Associáveis (chave / valor) - Relação com objetos da vida real - Atributos: cor, forma, material, peso, identificação, etc.",
+  "type": "module",
   "main": "index.js",
   "dependencies": {
     "bootstrap": "^5.1.3",
@@ -10,17 +11,23 @@
     "vue": "^3.3.4"
   },
   "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.22.20",
+    "@babel/preset-react": "^7.22.15",
+    "babel-jest": "^29.7.0",
     "eslint": "^8.3.0",
     "eslint-config-airbnb": "^19.0.1",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.27.1",
-    "eslint-plugin-react-hooks": "^4.3.0"
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "jest": "^27.5.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "react-scripts start"
+    "start": "http-server -o -c-1"
   },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cavalcantemmarcelo/javascript.git"

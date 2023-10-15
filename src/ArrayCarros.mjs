@@ -1,4 +1,5 @@
-import carros from './carros.js';
+// ArrayCarros.mjs
+import { carros } from './carros.mjs';
 
 const precos = carros.map(carro => carro.preco);
 console.log(precos);
@@ -12,3 +13,5 @@ console.log(carrosCaros);
 carros.forEach(carro => {
     console.log(`Marca: ${carro.marca}, Modelo: ${carro.modelo}`);
 });
+
+console.log()

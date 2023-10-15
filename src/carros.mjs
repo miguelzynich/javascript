@@ -1,3 +1,4 @@
+// carros.mjs
 const carros = [
     {
         marca: 'Toyota',
@@ -24,3 +25,7 @@ const carros = [
         preco: 20000
     }
 ];
+
+
+export { carros };
+
